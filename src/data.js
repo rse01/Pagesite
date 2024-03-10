@@ -18,7 +18,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "rse01";
 
 // Navbar Logo image
 export const navLogo = undefined;
@@ -31,7 +31,7 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. As a QA engineer specializing in automation, I engage in the development of web applications across various sectors, particularly within insurance companies. My responsibilities encompass the entire development cycle, from product conceptualization to deployment. I am deeply passionate about advocating for the adoption of DevOps practices, test automation, and the implementation of effective metrics to facilitate teams in comprehending and enhancing the quality of their products. Additionally, I actively organize meetups focused on DevOps and test automation for individuals keen on expanding their knowledge in these domains";
 
 /* Skills
  ************************************************************** 
@@ -86,18 +86,18 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+export const resume = "teststs";
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["rse01/postman2robotframework", "rse01/la-formation-complete-python", "rse01/BDD-workshop"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
+    name: "example-1AAA",
     image: Logo,
   },
 ];
