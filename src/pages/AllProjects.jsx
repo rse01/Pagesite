@@ -52,7 +52,7 @@ export default function AllProjects() {
 
   React.useEffect(
     function () {
-      document.title = `${name} | All Projects`;
+      document.title = "rse01 | All Projects";
     },
     [name]
   );
