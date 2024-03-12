@@ -104,7 +104,7 @@ export default function Projects() {
             </>
           )}
         </Container>
-        <a href="./Continuous_testing_performance.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="src/pages/Continuous_testing_performance.pdf" target="_blank" rel="noopener noreferrer">
           <img src="images/logo.svg" alt="" />
           <Button
             size="lg"
