@@ -104,16 +104,16 @@ export default function Projects() {
             </>
           )}
         </Container>
-        <a href="./src/images/Continuous_testing_performance.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="./images/Continuous_testing_performance.pdf" target="_blank" rel="noopener noreferrer">
           <img src="images/logo.svg" alt="" />
           <Button
-                      size="lg"
-                      variant={
-                        theme === "light" ? "outline-dark" : "outline-light"
-                      }
-                    >
-                      All <Icon icon="icomoon-free:github" /> Slides
-                    </Button>
+            size="lg"
+            variant={
+              theme === "light" ? "outline-dark" : "outline-light"
+            }
+          >
+            All <Icon icon="icomoon-free:github" /> Slides
+          </Button>
         </a>
       </section>
     </Element>
