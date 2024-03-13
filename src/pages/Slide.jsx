@@ -15,8 +15,6 @@
 //  height: 100%;
 //  left: 0;
 //  top: 0;
-//`;
-//
 //const Slide = () => {
 //  return (
 //    <SlideContainer>
