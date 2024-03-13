@@ -104,7 +104,8 @@ export default function Projects() {
             </>
           )}
         </Container>
-        <a href="./src/pages/Continuous_testing_performance.pdf" target="_blank" rel="noopener noreferrer">
+        <Container style={{ marginBottom: '20px' }}>.</Container>
+        <a href="https://online.fliphtml5.com/iictd/tqfl/" target="_blank" rel="noopener noreferrer">
           <img src="images/logo.svg" alt="" />
           <Button
             size="lg"
@@ -112,9 +113,21 @@ export default function Projects() {
               theme === "light" ? "outline-dark" : "outline-light"
             }
           >
-            All <Icon icon="icomoon-free:github" /> Slides
+            All <Icon icon="icomoon-free:github" /> Publications
           </Button>
         </a>
+        <Container className="text-center mt-5">
+                  <Link to="/Slide">
+                    <Button
+                      size="lg"
+                      variant={
+                        theme === "light" ? "outline-dark" : "outline-light"
+                      }
+                    >
+                      <Icon icon="icomoon-free:github" /> Slide
+                    </Button>
+                  </Link>
+        </Container>
       </section>
     </Element>
   );
